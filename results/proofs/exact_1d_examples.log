@@ -1,0 +1,12 @@
+(a) two nodes, zero data at 0; the target u^(4)(0) = 0 is the prescribed value
+    Gram matrix at a=1, first row: [3, 2, 1, 0, 0]
+    a = 1, general data at a:  error = 0
+    a = 2, data of h = 1 at a: error = -705
+    general a, data of h = 1:  error = -24*(a - 1)*(9*a**7 - 15*a**6 + 10*a**5 - 8*a**4 + 13*a**3 - 5*a**2 + 2*a - 2)/a**4
+    a = 1, plain tuple (L0..L4), data (1,0,0,0,0): error = 48
+    a = 1, all data general: u^(4)(0) - 24*z4 = 0
+(b) three nodes 0, 1, 2 (ordinary derivatives)
+    u^(4)(0) = 623/24  (prescribed 0)
+cross-checks by closed-form solution
+    (b) u^(4)(0) = 623/24
+    (a) a = 2, h = 1: u^(4)(0) = -705

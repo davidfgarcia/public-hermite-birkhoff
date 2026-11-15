@@ -1,0 +1,13 @@
+PASS  feature count equals dim Pi_6(R^6) = 924
+PASS  kernel gradient
+PASS  kernel Laplacian
+PASS  |x-a|^-4 is harmonic in dimension six
+PASS  weight gradient
+PASS  Delta_x[weight * kernel](0) vanishes identically in a
+PASS  Delta^2 |xi|^6 = 1920 |xi|^2
+PASS  Delta^4 |xi|^6 = 0
+PASS  direct degree-six error at a=(1, 0, 0, 0, 0, 0)
+PASS  direct degree-six error at a=(1, 2, -1, 1/2, 3, -2)
+PASS  direct degree-six error at a=(1/3, -2, 3/5, 1, -1, 2)
+PASS  Remark 5.4 next coefficient is 3375/2
+All exact checks passed.

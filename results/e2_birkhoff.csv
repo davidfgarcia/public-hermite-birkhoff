@@ -1,0 +1,84 @@
+dim,pattern,datum,predicted,err,err_r1e5,verdict
+1,"{0,1,2,3}",f,exact,3.748178640255189e-39,3.748178675803662e-33,exact
+1,"{0,1,2,3}",Dx,exact,1.0243861693738358e-48,1.0243861773986397e-40,exact
+1,"{0,1,2,3}",Dxx,exact,3.830138108676482e-36,3.830138204873746e-30,exact
+1,"{0,1,2,3}",Dxxx,exact,3.039698065381595e-45,3.03969807684456e-37,exact
+1,"{0,1,2}",f,exact,5.278175790035131e-38,5.27817580134094e-32,exact
+1,"{0,1,2}",Dx,exact,1.5999486809204332e-48,1.5999486906949783e-40,exact
+1,"{0,1,2}",Dxx,exact,1.218133900249528e-35,1.2181339128447697e-29,exact
+1,"{0,2}",f,exact,1.0913876981750317e-38,1.0913877006418665e-32,exact
+1,"{0,2}",Dxx,not exact,0.03165029401889116,0.03165029401889116,not exact
+1,"{0,3}",f,exact,3.560683333985496e-38,3.5606833385356436e-32,exact
+1,"{0,3}",Dxxx,not exact,0.41708246484734457,0.41708246484734457,not exact
+1,{1},Dx,not exact,0.025720945139878312,0.025720945139878312,not exact
+1,{2},Dxx,not exact,0.016359801872847055,0.016359801872847055,not exact
+1,"{1,2}",Dx,not exact,0.024675244526423463,0.024675244526423463,not exact
+1,"{1,2}",Dxx,not exact,0.24118300590705505,0.24118300590705505,not exact
+1,"{0,1,3}",f,exact,1.2204316360433588e-37,1.2204316365197388e-31,exact
+1,"{0,1,3}",Dx,exact,9.676050214372701e-49,9.676050288658465e-41,exact
+1,"{0,1,3}",Dxxx,not exact,1.6106354980658497,1.6106354980658497,not exact
+1,"{0,2,3}",f,exact,1.6498432617875122e-37,1.6498432604376912e-31,exact
+1,"{0,2,3}",Dxx,not exact,0.69070198571588,0.69070198571588,not exact
+1,"{0,2,3}",Dxxx,not exact,2.963419282730078,2.963419282730078,not exact
+2,"f, Dx",f,exact,8.227753774826794e-35,8.227753557206319e-29,exact
+2,"f, Dx",Dx,exact,5.360596360832523e-44,5.3605964766617794e-36,exact
+2,"f, Dx, Dy",f,exact,5.376186498603772e-34,5.376186666040192e-28,exact
+2,"f, Dx, Dy",Dx,exact,3.160539981741384e-43,3.160540028415026e-35,exact
+2,"f, Dx, Dy",Dy,exact,6.264460150285218e-44,6.264460211058184e-36,exact
+2,"f, Dv (directional)",f,exact,2.958159608325067e-36,2.958163341968177e-30,exact
+2,"f, Dv (directional)",+0.6Dx +0.8Dy,exact,2.389747761383131e-44,2.3897478579978203e-36,exact
+2,Dx only,Dx,not exact,2.2344983515743144,2.2344983515743144,not exact
+2,"f, Dxx",f,exact,6.763531553834633e-35,6.763530960567922e-29,exact
+2,"f, Dxx",Dxx,not exact,2.436892467761811,2.436892467761811,not exact
+2,"f, Dx, Dxy",f,exact,4.784306800546646e-34,4.7843069708416735e-28,exact
+2,"f, Dx, Dxy",Dx,exact,3.18438567234772e-43,3.1843857216375e-35,exact
+2,"f, Dx, Dxy",Dxy,not exact,5.059098483750993,5.059098483750993,not exact
+2,"f, Dx, Dy, Dxy",f,exact,3.6555706996580876e-34,3.6555708307601416e-28,exact
+2,"f, Dx, Dy, Dxy",Dx,exact,2.4281634389367665e-43,2.4281634727493116e-35,exact
+2,"f, Dx, Dy, Dxy",Dy,exact,6.791491395664943e-45,6.791491184449978e-37,exact
+2,"f, Dx, Dy, Dxy",Dxy,exact,7.1713645763166385e-43,7.171364885796156e-35,exact
+2,"f, Laplacian",f,exact,1.2623221890287372e-35,1.2623216525249547e-29,exact
+2,"f, Laplacian",Dxx Dyy,not exact,6.728501923183258,6.728501923183258,not exact
+2,"f, Dx, Dy, Laplacian",f,exact,2.8805822681031113e-34,2.880582400940597e-28,exact
+2,"f, Dx, Dy, Laplacian",Dx,exact,2.5006071255417025e-43,2.500607163098176e-35,exact
+2,"f, Dx, Dy, Laplacian",Dy,exact,1.055621706976667e-44,1.0556216720338183e-36,exact
+2,"f, Dx, Dy, Laplacian",Dxx Dyy,exact,1.4551737061095265e-30,1.4551737362205678e-24,exact
+2,full Hermite k=2,f,exact,5.321475461318769e-34,5.321475670287642e-28,exact
+2,full Hermite k=2,Dx,exact,4.038196468378513e-43,4.0381965308586094e-35,exact
+2,full Hermite k=2,Dy,exact,7.675543213422518e-44,7.6755433084804e-36,exact
+2,full Hermite k=2,Dxx,exact,2.2515164023344073e-30,2.251516449947102e-24,exact
+2,full Hermite k=2,Dxy,exact,7.330782451246578e-43,7.330782744615699e-35,exact
+2,full Hermite k=2,Dyy,exact,2.635873961399887e-31,2.6358740531275843e-25,exact
+2,"a2: f, Dx, Dy, Dxy",f,exact,1.5701750880918525e-32,1.5701750761423054e-26,exact
+2,"a2: f, Dx, Dy, Dxy",Dx,exact,8.066914147301824e-42,8.066913966991331e-34,exact
+2,"a2: f, Dx, Dy, Dxy",Dy,exact,7.990107644437835e-42,7.99010778432538e-34,exact
+2,"a2: f, Dx, Dy, Dxy",Dxy,exact,5.003700225601264e-40,5.00370001335042e-32,exact
+2,"a2: f, Dx, Dy, Dxx",f,exact,1.5693887499081316e-32,1.5693887378474223e-26,exact
+2,"a2: f, Dx, Dy, Dxx",Dx,exact,8.022568317090786e-42,8.022568137464184e-34,exact
+2,"a2: f, Dx, Dy, Dxx",Dy,exact,7.91567918774022e-42,7.915679328222084e-34,exact
+2,"a2: f, Dx, Dy, Dxx",Dxx,not exact,88.24829072970618,88.24829072970618,not exact
+2,"a2: f, Dx, Dy, Dxx-Dyy",f,exact,1.555284571551474e-32,1.5552845596787325e-26,exact
+2,"a2: f, Dx, Dy, Dxx-Dyy",Dx,exact,7.990318902634463e-42,7.990318723784088e-34,exact
+2,"a2: f, Dx, Dy, Dxx-Dyy",Dy,exact,7.881922381806994e-42,7.88192252290601e-34,exact
+2,"a2: f, Dx, Dy, Dxx-Dyy",Dxx -Dyy,exact,3.995751916786126e-30,3.995753602422527e-24,exact
+2,"a2: f, Dx, Dy, Laplacian",f,exact,1.552458693971628e-32,1.552458682087383e-26,exact
+2,"a2: f, Dx, Dy, Laplacian",Dx,exact,7.977858955346091e-42,7.977858776581398e-34,exact
+2,"a2: f, Dx, Dy, Laplacian",Dy,exact,7.894502960125588e-42,7.894503100280476e-34,exact
+2,"a2: f, Dx, Dy, Laplacian",Dxx Dyy,not exact,173.91558257817476,173.91558257817476,not exact
+2,KL: values + gradients at the SAME points,node 0: f,exact,5.657519939603261e-32,5.657519501834075e-26,exact
+2,KL: values + gradients at the SAME points,node 0: Dx,exact,1.5041899145190477e-41,1.5041901248381031e-33,exact
+2,KL: values + gradients at the SAME points,node 0: Dy,exact,3.1782745137658134e-41,3.178274301333611e-33,exact
+2,KL: values + gradients at the SAME points,node 1: f,exact,2.902344396936869e-34,2.9023443918450477e-28,exact
+2,KL: values + gradients at the SAME points,node 1: Dx,exact,6.739131867831309e-45,6.739131853424762e-37,exact
+2,KL: values + gradients at the SAME points,node 1: Dy,exact,1.011406143336312e-43,1.0114061358224624e-35,exact
+2,KL: values + gradients at the SAME points,node 2: f,exact,3.865998143042966e-34,3.8659981448896267e-28,exact
+2,KL: values + gradients at the SAME points,node 2: Dx,exact,2.7555694686120306e-44,2.7555694585226682e-36,exact
+2,KL: values + gradients at the SAME points,node 2: Dy,exact,9.627354906607522e-46,9.6273567837295e-38,exact
+2,KL: gradients at points WITHOUT values,node 0: f,exact,1.4735307380471e-32,1.4735305905957412e-26,exact
+2,KL: gradients at points WITHOUT values,node 1: f,exact,2.2350883481138804e-34,2.235088344751467e-28,exact
+2,KL: gradients at points WITHOUT values,node 8: Dx,not exact,0.09205133609560325,0.09205133609560325,not exact
+2,KL: gradients at points WITHOUT values,node 8: Dy,not exact,0.6911673425309918,0.6911673425309918,not exact
+2,KL: gradients at points WITHOUT values,node 9: Dx,not exact,1.4910578075379723,1.4910578075379723,not exact
+2,KL: gradients at points WITHOUT values,node 9: Dy,not exact,4.328878844481629,4.328878844481629,not exact
+2,KL: gradients at points WITHOUT values,node 10: Dx,not exact,1.9276830694115377,1.9276830694115377,not exact
+2,KL: gradients at points WITHOUT values,node 10: Dy,not exact,0.454894415990398,0.454894415990398,not exact

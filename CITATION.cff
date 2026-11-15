@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper it accompanies (preprint; the arXiv number will be added here)."
+title: "hermite-birkhoff: singular-weight moving least squares (SWIMLS) for Hermite-Birkhoff data"
+type: software
+authors:
+  - family-names: Figueiras-Garcia
+    given-names: David
+version: 0.2.1
+license: PolyForm-Noncommercial-1.0.0
+repository-code: "https://github.com/davidfgarcia/public-hermite-birkhoff"
+preferred-citation:
+  type: article
+  title: "Generalized Hermite-Birkhoff interpolation of arbitrary order in any dimension via singular-weight moving least squares"
+  authors:
+    - family-names: Figueiras-Garcia
+      given-names: David
+  year: 2026
+  notes: "Preprint, submitted for publication."

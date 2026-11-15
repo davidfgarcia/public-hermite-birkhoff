@@ -1,0 +1,5 @@
+u(x) = x*(x - 2)*(x - 1)*(x**2 - 4*x + 5)/(2*x**4 - 14*x**3 + 37*x**2 - 42*x + 19)
+u(0) = 0   (prescribed 0)
+u(2) = 0   (prescribed 0)
+u'(1) = -1   (prescribed 1)
+u'(3) = 31/25   (prescribed 1)

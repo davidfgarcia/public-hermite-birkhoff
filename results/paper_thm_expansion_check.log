@@ -1,0 +1,4 @@
+N_i=0, m=4, a=2, q=xi^4: engine=-657407/4608  paper-formula=-657407/4608  equal=True
+N_i!=0, m=5, a=2, q=xi^4: engine=-1689089233829/24855100443  paper-formula=-1689089233829/24855100443  equal=True
+skew tuple, N_i=0, m=4, a=2, q=xi^4+xi^2: engine=-34155048260771/254803968  paper-formula=-34155048260771/254803968  equal=True
+alpha=4, N_i!=0, m=6, jets 0..5, q=xi^5: engine=2597960453500/1685020401  paper-formula=2597960453500/1685020401  equal=True
