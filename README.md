@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1458637123.svg)](https://doi.org/10.5281/zenodo.24335737)
+
 # SWIMLS: Hermite–Birkhoff interpolation by singular-weight moving least squares
 
 Code, exact verification scripts, results and figures for the paper
